@@ -1,5 +1,10 @@
-
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package Tareas;
+
+
 
 
 import javax.swing.*;
@@ -13,6 +18,24 @@ import java.util.ArrayList;
 import java.util.List;
 
 // Clase principal de la aplicación
+
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
+import java.awt.event.ActionListener;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.SwingUtilities;
+
 public class RegistroIMCApp {
     private JFrame frame;//Introduccion del JFrame
     private JTextField nombreField, edadField, pesoField, alturaField, imcField;//Ingreso de variables de entrada para los recuadros
